@@ -30,5 +30,17 @@ def generative_net(input, filter_size, strides, padding, input_shape):
 
 def discreminator(input, filter_size, strides, padding, input_shape):
     net = layers._deconv1d(inputs, filters, stride, paddig)
+    net = layers._conv1d(inputs, 1024, stride, paddig)
+    net = layers._conv1d(inputs, 512, stride, paddig)
+    net = layers._conv1d(inputs, 256, stride, paddig)
+    net = layers._conv1d(inputs, 256, stride, paddig)
+    net = layers._conv1d(inputs, 128, stride, paddig)
+    net = layers._conv1d(inputs, 128, stride, paddig)
+    net = layers._conv1d(inputs, 64, stride, paddig)
+    net = layers._conv1d(inputs, 64, stride, paddig)
+    net = layers._conv1d(inputs, 32, stride, paddig)
+    net = layers._conv1d(inputs, 32, stride, paddig)
+    net = layers._conv1d(inputs, 16, stride, paddig)
+    net = layers._conv1d(inputs, 1, stride, paddig)
     net = _leaky_relu(net)
     return net
