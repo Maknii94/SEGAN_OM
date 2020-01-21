@@ -2,3 +2,4 @@
 .vscode
 Dataset
 .ipynb_checkpoints
+__pycache__
