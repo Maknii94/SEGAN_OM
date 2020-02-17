@@ -4,3 +4,9 @@ Dataset
 .ipynb_checkpoints
 __pycache__
 generator.py
+muell.ipynb
+logs
+training_checkpoints
+muell.ipynb
+waves.tfrecords
+new_waves.tfrecords
