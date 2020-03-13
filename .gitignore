@@ -10,3 +10,5 @@ training_checkpoints
 muell.ipynb
 waves.tfrecords
 new_waves.tfrecords
+my_final_wave.tfrecords
+small_waves.tfrecords
